@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../nature.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+}
+ul li{
+    display: inline-block;
+}
+ul li.active a{
+    background-color: tomato;
+    color: wheat;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: tomato;
+    color: wheat;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 15px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    font-size: 70px;
+    color: white;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: turquoise;
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.5s ease;
+}
+.btn:hover{
+    background-color: tomato;
+    color: wheat;
+}
